@@ -1,8 +1,4 @@
-export default function About() {
-  return (
-    <div style={{ backgroundColor: "white", color: "black", minHeight: "100vh", padding: "20px" }}>
-      <h1>About Page</h1>
-      <p>This is my first nextjs work. Im Midhun PM from CSD</p>
-    </div>
-  );
+// Topic 1: Pages (app/about/page.js -> URL: http://localhost:3000/about)
+export default function AboutPage() {
+  return <h1>Welcome to About Page!</h1>;
 }
